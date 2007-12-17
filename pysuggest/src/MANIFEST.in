@@ -1,0 +1,13 @@
+include *.so
+include *.c
+include *.pyd
+prune .svn 
+prune */.svn
+prune */*/.svn
+prune */*/*/.svn
+prune */*/*/*/.svn
+global-exclude *~
+global-exclude *.tmp
+global-exclude *.bak
+global-exclude *.pyc
+global-exclude *.old
